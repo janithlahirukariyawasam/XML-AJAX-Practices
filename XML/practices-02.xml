@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<movies>
+    <movie release = "yes" lang="en">
+        <name>Avatar</name>
+        <director>B.N.M UUUU</director>
+        <country>USA</country>
+    </movie>
+    <movie  release = "yes" lang="en">
+        <name>Avatar</name>
+        <director>B.N.M UUUU</director>
+        <country>USA</country>
+    </movie>
+    <movie release = "yes" lang="french">
+        <name>Avatar</name>
+        <director>B.N.M UUUU</director>
+        <country>USA</country>
+    </movie>
+    <movie release = "no" lang="sinhala">
+        <name>Avatar</name>
+        <director>B.N.M UUUU</director>
+        <country>USA</country>
+    </movie>
+</movies>
+
+
+<!--Attribute value need to be inside the " " 
+Can declare your own attributes and xml elements
+
+-->
