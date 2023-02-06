@@ -1,0 +1,3 @@
+DOM mean accessing and manupulating data
+
+XML Parser is important
