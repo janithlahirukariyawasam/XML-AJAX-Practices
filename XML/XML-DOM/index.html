@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Convert xml code into xml dom object-->
+    <p id="xml-data"></p>
+
+    <script>
+      const text = `<movie>
+    <name>Avatar</name>
+    <director>B.N.M UUUU</director>
+    <country>USA</country>
+</movie>`;
+
+    //creata a parser object
+    const parser = new DOMParser()
+    //convert xml code into XXML Dom object
+    const xmlDoc = parser.parseFromString(text,"text/html") 
+
+    //Acess data from the DOM/XML code
+    console.log(xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue)
+    document.getElementById("xml-data").innerHTML= xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue
+    </script>
+  </body>
+</html>
