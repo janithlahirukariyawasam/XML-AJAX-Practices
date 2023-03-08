@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <m:Movie id="5">
-    <m:Actor>
-        <Name>JJJJJ</Name>
-        <Age>25</Age>
-    </m:Actor>
-    <m:Actor>
-        <m:Name>KKKKKK</m:Name>
-        <m:Age>10</m:Age>
-    </m:Actor>
-   </m:Movie>
+        <m:Actor>
+            <Name>JJJJJ</Name>
+            <Age>25</Age>
+        </m:Actor>
+        <m:Actor>
+            <m:Name>KKKKKK</m:Name>
+            <m:Age>10</m:Age>
+        </m:Actor>
+    </m:Movie>
 
-   <A:Movie id="5">
-    <name>Avatar</name>
-    <Director>J J Tolien</Director>
-    <Released>25 Dec</Released>
-   </A:Movie>
+    <A:Movie id="5">
+        <name>Avatar</name>
+        <Director>J J Tolien</Director>
+        <Released>25 Dec</Released>
+    </A:Movie>
 </root>
 
 <!--
-dn eththatama ethana enawa error ekama eka declare karala wage meka magaharawa ganna prefix bawithakaranawa
+dn eththatama ethana enawa error ekama eka declare karala wage meka magaharawa ganna prefix
+bawithakaranawa
 Prefix ekak kiyanne   <m:movie></m:movie>  xml doc 2k add karaddi ena error magahawa ganna use wenawa
 -->
